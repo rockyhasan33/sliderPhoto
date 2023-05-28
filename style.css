@@ -16,6 +16,7 @@ body {
     border-radius: 10px;
     position: relative;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: background 200ms ease-in-out;
 }
 
 .btn {
