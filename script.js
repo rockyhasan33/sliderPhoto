@@ -8,6 +8,8 @@ nextBtn.addEventListener('click', nexDisplay);
 prevBtn.addEventListener('click', preDisplay);
 
 function nexDisplay() {
+    display.animate([{opacity:'0.1'}, {opacity:'1.0'}]
+    ,{duration: 1000,fill:'forwards'})
     num++;
     if(num >= 5) {
         num = 1;
@@ -20,6 +22,8 @@ function nexDisplay() {
 }
 
 function preDisplay() {
+    display.animate([{opacity:'0.1'}, {opacity:'1.0'}]
+    ,{duration: 1000,fill:'forwards'})
     num--;
     
     if(num < 1) {
